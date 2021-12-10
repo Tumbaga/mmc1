@@ -1,2 +1,2 @@
 # mmc1
-Plantilla prueba
+Página prueba
