@@ -1,2 +1,2 @@
 # mmc1
-Plantilla editada
+Plantilla prueba
