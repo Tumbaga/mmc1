@@ -1,0 +1,497 @@
+body {
+    font-family: 'Gemunu Libre', sans-serif;
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-menubar {
+    background: white;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+
+.logo {
+    position: absolute;
+    color: rgb(7, 7, 7);
+    font-size: 30px;
+    top: 8px;
+    left: 5%;
+    font-weight: bolder;
+}
+
+.navbar-menubar ul {
+    float: right;
+    margin-right: 50px;
+    list-style: none;
+}
+
+.nav-options li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+.nav-options li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    position: relative;
+    border-radius: 5px;
+}
+
+a:focus, a:hover {
+    background-color:gray;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+#check {
+    display: none;
+}
+
+.checkbtn {
+    font-size: 25px;
+    float: right;
+    color: rgb(8, 8, 8);
+    line-height: 50px;
+    margin-right: 25px;
+    cursor: pointer;
+    display: none;
+    top: 50%;
+    left: 200%;
+    align-items: right;
+}
+
+section {
+    width: 100%;
+}
+
+/*Banner*/
+.banner {
+    height: 97vh;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
+.banner-text {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 37%;
+    left: 50%;
+    font-size: 20px;
+}
+
+.banner-text h2 {
+    font-size: 45px;
+}
+
+.banner-text a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 7px;
+    margin-top: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    width: 100px;
+    font-size: 18px;
+}
+
+.banner-text a:hover {
+    background: none;    
+}
+
+.banner_content img {
+    width: 100%;
+    margin: 5px 0;
+}
+
+/* Servicios */
+.about{
+    height: 97vh;
+    position: relative;
+}
+.about-content{
+    width: 100%;
+    hyphens: 100%;
+    padding: 30px 0;
+    text-align: center;
+    color:rgb(255, 255, 255)
+    
+}
+.about-content h2{
+    text-transform: uppercase;
+    font-size: 45px;
+}
+.about-content p{
+    font-size: 20px;
+}
+.about-content p,.about-content h2{
+    padding: 10px 50px;
+}
+.img_job{
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    height: 280px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    border: 6px solid rgb(255, 255, 255);
+}
+.about-img{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding: 0 50px;
+    
+}
+.about-imgx{
+    width: 33%;
+    float: left;
+}
+/*Clientes*/
+
+.testimonios{
+    height: 97vh;
+    position: relative;
+    background:url(img/bg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color:white
+}
+.testimonio-content{
+    width: 100%;
+    height: 100%;
+    padding: 30px 0;
+    text-align: center;
+}
+.testimonio-content h2{
+    font-size: 45px;
+    text-transform: uppercase;
+    padding: 20px 50px;
+}
+.testimonio-content p{
+    padding: 20px 50px;
+    font-size: 20px;
+}
+.testimonios-group{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding: 0 50px;
+}
+.testimonios_card{
+    width: 33%;
+    float: left;
+}
+.imagen-perfil{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid white
+}
+
+/* Contactos */
+.contacto{
+    height: 97vh;
+    position: relative;
+}
+
+.contacto-content{
+    width: 100%;
+    height: 100%;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.contacto-content h2{
+    font-size: 45px;
+    text-transform: uppercase;
+    padding: 10px 50px;
+    color: white;
+}
+
+.contacto-content p{
+    padding: 10px 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.contacto-group{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding: 0 50px;
+}
+
+.form-contact{
+    width: 50%;
+    float: left;
+}
+
+.form-contact label{
+    height: 100%;
+}
+
+.form-control{
+    width: 85%;
+    padding: 0.8rem;
+    margin: 0.6rem 1rem;
+    display: block;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1.5px solid white;
+}
+   
+#boton-enviar{
+    display: block;
+    font-size: 1rem;
+    text-transform: capitalize;
+    background: gray;
+    color: white;
+    border: none;
+    padding: 0.7rem 1rem;
+    margin: 0.6rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 90%;
+    height: 100%;
+}
+
+#boton-enviar:hover{
+    background: white;
+    color: gray;
+    text-transform: uppercase;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+.contacto-img{
+    width: 50%;
+    float: left;
+}
+
+.contacto-img img{
+    width: 85%;
+    display: block;
+    margin: auto;
+}
+
+/*Footer*/
+footer{
+    position: relative;
+}
+.footer{
+    height: 10vh;
+    background:none;
+    color: white;
+}
+
+.redes label a{
+    color: gray;
+}
+.redes label i{
+    font-size: 25px;
+    padding: 0 10px;
+    background: none;
+}
+.redes label i:hover{
+    font-size: 28px;
+    padding: 0 10px;
+    color:white;
+}
+.copr{
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    text-align: left;
+}
+.redes{
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Responsivo */
+
+@media(max-width:1024px) /*TABLET*/{
+    .logo {
+        padding-left: 40px;
+    }
+    .nav-options {
+        font-size: 14px;
+        padding: 7px 10px;
+    }
+    .banner {
+        height: 89vh;
+    }
+    .banner-concent img {
+        margin-top: 50px;
+    }
+
+    .banner{
+        height: 55vh;
+    }
+
+    .banner-text h2{
+        font-size: 30px;
+    }
+
+    .banner-text p{
+        font-size: 14px;
+    }
+    .banner-text a{
+        font-size: 14px;
+        width: 60px;
+    }
+
+    /*Trabajos*/
+    .about{
+        height: 100vh;
+    }
+    .img_job{
+        width: 210px;
+        height: 210px;
+    }
+
+    /*Clientes */
+    .about, .testimonio, .contacto{
+        height: fit-content;
+    }
+    .testimonios_card p{
+        font-size: 13px;
+    }
+    .testimonio-content{
+        font-size: 13px;
+    }
+    .imagen-perfil{
+        width: 150px;
+        height: 150px;
+    }
+    /*Contacto*/
+    .form-control{
+        width: 75%;
+        padding: 0.3rem;
+        margin: 0.6rem 1rem;
+    }
+    #boton-enviar{
+        font-size: 0.8rem;
+    }
+    /* Footer */
+    .footer{
+        height: 15vh;
+    }
+
+    .social{
+        width: 100%;
+    }
+
+    .social label i{
+        font-size: 25px;
+        
+    }
+
+    .copr{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:768px) /*MOVIL*/{
+    .checkbtn {
+        display: block;
+    }
+    .nav-options {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(223, 221, 221);
+        top: 50px;
+        text-align: center;
+        left: 120%;
+        transition: .5s;
+    }
+    .nav-options li {
+        display: block;
+        border-bottom: 1px solid rgba(7, 7, 7, 0.904);
+        z-index: 1;
+    }
+    .nav-options a {
+        font-size: 13px;
+    }
+    nav li:hover {
+        background-color: rgb(255, 255, 255);
+    }
+    nav li a:hover {
+        color: rgb(0, 0, 0);
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+    .banner {
+        height: 55vh;
+    }
+    .banner-text h2 {
+        font-size: 30px;
+    }
+    .banner-text p {
+        font-size: 16px;
+    }
+    .banner-text a {
+        font-size: 14px;
+        width: 60px;
+    }
+
+    /*Trabajos*/
+    .about, .testimonios, .contacto{
+        height: 165vh;
+    }
+    .about-content h2,.testimonios-content h2,.contacto-content h2{
+        font-size: 35px;
+    }
+    .about-imgx{
+        width: 100%;
+        margin-bottom: 20px;
+    } 
+    /*clientes*/
+    
+    .testimonios_card{
+        width: 100%;
+        margin-top: 20px;
+    }
+    /*Contactos*/
+    .form-control{
+        width: 75%;
+        padding: 0.3rem;
+        margin: 0.5rem 1rem;
+    }
+    .contacto-img,.form-contact{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .form-contact, #boton-enviar{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #boton-enviar{
+        width: 77%;
+    }
+    /* Footer */
+    .copr p{
+        font-size: 14px;
+    }
+}

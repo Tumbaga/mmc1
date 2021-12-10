@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MMC</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar-menubar">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-chevron-circle-down"></i>
+            </label>
+            <label class="logo">MMC</label>
+            <ul class="nav-options">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#clientes">Clientes</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner" id="inicio">
+            <div class="banner-content">
+                <img src="img/banner.jpg" alt="imagen banner">
+                <div class= "banner-text">
+                    <h2>Explora</h2>
+                    <p>Y descubre cuanto más te queda por aprender.</p>
+                    <a href="#">Regístrate</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="servicios">
+            <div class="about-content">
+                <h2>
+                    Nuestro Trabajo
+                </h2>
+                <p>«En fotografía, no es el fotógrafo quien es importante» - Yann Arthus Bertrand.</p>
+                <div class="about-img">
+                    <div class="about-imgx">
+                        <img src="img/work1.jpg" alt="Imagen de trabajo" class="img_job" >
+                        <br> </br>
+                        <h4>Trabajo 1</h4>
+                    </div>
+                    <div class="about-imgx">
+                        <img src="img/work2.jpg" alt="Imagen de trabajo" class="img_job">
+                        <br> </br>
+                        <h4>Trabajo 2</h4>
+                    </div>
+                    <div class="about-imgx">
+                        <img src="img/work3.jpg" alt="Imagen de trabajo" class="img_job">
+                        <br> </br>
+                        <h4>Trabajo 3</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonios" id="clientes">
+            <div class="testimonio-content">
+                <h2>Nuestros clientes.</h2>
+                <p>La confianza lo es todo.</p>
+                <div class="testimonios-group">
+                    <div class="testimonios_card">
+                        <img src="img/client 1.jpg" alt="Cliente1" class="imagen-perfil">
+                        <h4>Jessika Juyeimi</h4>
+                        <p>"Meelo"</p>
+                    </div>
+                    <div class="testimonios_card">
+                        <img src="img/client 2.jpg" alt="Cliente2"class="imagen-perfil">
+                        <h4>Josefino</h4>
+                        <p>"Buenísimo"</p>
+                    </div>
+                    <div class="testimonios_card">
+                        <img src="img/client 3.jpg" alt="Cliente3"class="imagen-perfil">
+                        <h4>Karolo</h4>
+                        <p>"Muy rica la comida"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacto" id="contacto">
+            <div class="contacto-content">
+                <h2>Contáctanos</h2>
+                <p>La comunicación es un paso importante hacia la comprensión.</p>
+                <div class="contacto-group">
+                    <form action="" class="form-contact">
+                        <div>
+                            <input type="text" placeholder="Nombre  " class="form-control">
+                            <input type="text" placeholder="Apellidos" class="form-control">
+                            <input type="email" placeholder="Correo electronico" class="form-control">
+                            <input type="text" placeholder="Número de celular" class="form-control">
+                        </div>
+                        <textarea  cols="30" rows="10" class="form-control"></textarea>
+                        <label for="boton-enviar">
+                            <input type="submit" value="Envíame" id="boton-enviar">
+                        </label>
+                    </form>    
+                    <div class="contacto-img">
+                        <img src="img/contacto.png" alt="imagencontacto">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="redes">
+                <label><a href="https://facebook.com/" target="_blanck"><i class="fab fa-facebook-square"></i></a></label>
+                <label><a href="https://instagram.com/" target="_blanck"><i class="fab fa-instagram-square"></i></a></label>
+                <label><a href="https://twitter.com" target="_blanck"><i class="fab fa-twitter-square"></i></a></label>
+                <label><a href="https://paypal.com/" target="_blanck"><i class="fab fa-paypal"></i></a></label>
+            </div>
+            <div class="copr">
+                <p>Mateo Mondragón C &copy; 2021 Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/57ac9f25b9.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

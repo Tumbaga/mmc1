@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mi primera web</title>
+</head>
+
+<header>
+        <nav class="navbar-menu">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">NorbertoSB</label>
+            <ul class="nav-options">
+                <li><a href="">inicio</a></li>
+                <li><a href="">servicios</a></li>
+                <li><a href="">clientes</a></li>
+                <li><a href="">contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+<body>
+        <section class="Banner">
+            <div class="banner-content">
+                <img src="imagenes/Programer.jpg" alt="imagen banner">
+                <div class= "banner-text">
+                    <h2>live desing</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic dolores fugiat doloribus nesciunt a, culpa totam cumque numquam magni repellat porro molestias veritatis ipsa vero quasi rem ullam eius blanditiis.</p>
+                <a href="#">Leer mas</a>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="about-content">
+                <h2>
+                    Nuestro Trabajo
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi laborum unde reiciendis optio, soluta nesciunt ullam magni expedita similique voluptate sunt quibusdam reprehenderit nulla voluptates corporis quis eius quo labore!
+                </p>
+                <div class="job">
+                    <div class="about-imgx">
+                        <img src="imagenes/python.jpeg" alt="Imagen de trabajo" class="img_job" >
+                        <h4>Trabajo 01</h4>
+                    </div>
+                    <div class="about-imgx">
+                        <img src="imagenes/hmtml.jpg" alt="Imagen de trabajo" class="img_job">
+                        <h4>Trabajo 02</h4>
+                    </div>
+                    <div class="about-imgx">
+                        <img src="imagenes/css.png" alt="Imagen de trabajo" class="img_job">
+                        <h4>Trabajo 03</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <script src="https://kit.fontawesome.com/fbe90981f0.js"></script>
+</body>
+</html>
